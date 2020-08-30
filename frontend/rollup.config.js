@@ -6,10 +6,6 @@ import resolve from '@rollup/plugin-node-resolve';
 import serve from 'rollup-plugin-serve';
 import copy from 'rollup-plugin-copy';
 
-const watcher = rollup.watch({
-  watch: true
-});
-
 export default {
   input: 'src/index.js',
   output: {
